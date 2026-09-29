@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" placeholder="Enter your name" id="name1">
+    <input type="text" name="" placeholder="Enter another name" id="name2">
+    <button onclick="calci()">Submit</button>
+    <h2 id="res">Result</h2>
+    <script>
+        function calci(){
+         var name1=document.getElementById("name1").value;
+         var name2=document.getElementById("name2").value;
+         var per=Math.floor(Math.random()*101);
+         var res = document.getElementById("res");
+         res.innerHTML="Friendship between "+name1+"and "+name2+" is "+per+"%"
+        }
+    </script>
+    
+</body>
+</html>

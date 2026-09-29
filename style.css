@@ -1,0 +1,75 @@
+/*4 types of selector
+element,id -#,class -.,universal*/
+body{
+    background-color:darksalmon;
+}
+img{
+    height:300px;
+    width:300px;
+    
+}
+#Cat{
+    height:100px;
+    width:100px;
+    border: 10px solid black;
+    border-radius:50%;
+}
+#div1{
+    background-color: rgb(52, 2, 2);
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    padding: 2px;
+    margin:5px;
+    border-radius:50%;
+}
+#div2{
+    background-color:rgb(67, 67, 10);
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    padding: 2px;
+    margin:5px;
+    border-radius:50%;
+}
+#div3{
+    background-color: rgb(7, 52, 7);
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    padding: 2px;
+    margin:5px;
+    border-radius:50%;
+}
+#div1:hover{
+    background-color:rgb(255, 0, 0) ;
+    box-shadow: 0 0 50px red;
+    ;
+}
+#div2:hover{
+    background-color: yellow;
+    box-shadow:0 0 50px yellow;
+}
+#div3:hover{
+    background-color: rgb(4, 207, 4);
+    box-shadow:0 0 50px green;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    gap:10px;
+    background-color: rgb(83, 133, 33);
+    backdrop-filter: blur(10px);
+    width:500px;
+}
+input{
+    background-color: rgb(143, 89, 69);
+    padding:10px 12px;
+    box-sizing:border-box;
+    transition:0.3s ease;
+    width:80%;
+    color:black;
+}

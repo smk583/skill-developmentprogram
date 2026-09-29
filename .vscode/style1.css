@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    background-color: teal;
+    color: white;
+    padding: 15px;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 30px;
+}
